@@ -3,13 +3,11 @@ import React from 'react'
 
 export default function Collection() {
   return (
-    //  <section className=''>
-    //     <img className='' src={bg} alt="" />
-        
-    // </section>
-
    <div>
-        <section className='bg-[url(./bg.jpg)] mt-16 md:mt-14 bg-cover bg-no-repeat pb-10 w-full h-[50vh] md:h-[85vh] mb-14'>
+        <section className='relative bg-[url(./bg.jpg)] mt-16 md:mt-14 bg-cover bg-no-repeat pb-10 w-full h-[50vh] md:h-[65vh] mb-14'>
+            <div className='absolute justify-center items-center top-12 bottom-12 sm:top-18 sm:bottom-18 bg-[#fff]'>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae libero officia nemo necessitatibus. Alias, est obcaecati. Magni quod aliquam facere similique minus labore, quam totam maiores tempore, quibusdam nihil odit.</p>
+            </div>
         </section>
    </div>
   )
@@ -20,3 +18,8 @@ export default function Collection() {
 //bg-cover bg-center bg-no-repeat min-h-screen flex items-center justify-center text-white
 
 //bg-cover bg-center bg-no-repeat h-screen flex items-center justify-center
+
+////  <section className=''>
+    //     <img className='' src={bg} alt="" />
+        
+    // </section>
