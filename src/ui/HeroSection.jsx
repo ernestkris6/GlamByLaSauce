@@ -23,7 +23,7 @@ export default function HeroSection() {
 
 
       {/*Image*/}
-      <div className='md:w-1/2 md:gap-8 lg:pl-48'>
+      <div className='md:w-1/2 md:gap-8 lg:pl-48 xl:pl-64'>
         <img className='m-auto bg-cover bottom-0 h-20dvh rounded-lg relative' src={unsplash1} alt="" />
       </div>
     </div>
