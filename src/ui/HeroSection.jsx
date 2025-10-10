@@ -22,7 +22,7 @@ export default function HeroSection() {
 
       {/*Image*/}
       <div className='md:w-1/2 relative'>
-        <img className='m-auto bg-cover bottom-0 h-20dvh rounded-lg' src={unsplash1} alt="" />
+        <img className='m-auto bg-cover bottom-0 h-20dvh rounded-lg relative' src={unsplash1} alt="" />
       </div>
     </div>
   )
