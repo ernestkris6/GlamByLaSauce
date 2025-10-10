@@ -5,3 +5,13 @@ body {
     font-family: "Montserrat", sans-serif;
 
 }
+
+
+
+span{
+  background: linear-gradient(270deg, #92400E 10%, #DF8908 100% );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
