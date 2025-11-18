@@ -8,7 +8,7 @@ export default function HeroSection() {
 
       {/* Text and button */}
 
-      <div className='flex flex-col md:w-1/2 items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]'>
+      <div className='flex flex-col md:w-1/2 items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:pb-[-30px]'>
           <p className='uppercase font-bold text-4xl text-center'><span>professional</span></p>
           <p className='uppercase font-bold text-4xl '><span>makeup artist</span></p>
           <div className='mt-4 w-full font-semibold'>
@@ -24,7 +24,7 @@ export default function HeroSection() {
 
       {/*Image*/}
       <div className='md:w-1/2 md:gap-8 lg:pl-48 xl:pl-64'>
-        <img className='m-auto bg-cover bottom-0 h-20dvh rounded-lg relative' src={unsplash1} alt="" />
+        <img className='m-auto sm:mt-[42px] bg-cover bottom-0 h-20vh rounded-lg relative' src={unsplash1} alt="" />
       </div>
     </div>
   )

@@ -6,6 +6,7 @@ import Works from './Pages/Works'
 import Services from './Pages/Services'
 import About from './Pages/About'
 import Error from './Pages/Error'
+import Header from './ui/Header'
 import Footer from './ui/Footer'
 
 //https://www.figma.com/design/a5Qy7QsBDuwweCjBpUbwhZ/Makeup-website--Community-?node-id=0-1&p=f&t=f73OolI0QXpV02oL-0
@@ -14,6 +15,7 @@ import Footer from './ui/Footer'
 export default function App() {
   return ( 
       <BrowserRouter>
+      <Header />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='about' element={<About />} />

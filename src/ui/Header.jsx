@@ -8,6 +8,9 @@ export default function Header() {
       <Logo />
       <div className='hidden sm:block space-x-6 mx-8'>
         <Link className='font-bold text-black hover:text-amber-800' to='about'>About</Link>
+
+      {/* <Link className={({ isActive}) => (isActive ? 'font-bold text-black hover:text-amber-800' : 'font-bold text-black hover:text-amber-800')} to='about'>About</Link> */}
+
         <Link className='font-bold text-black hover:text-amber-800' to='services'>Services</Link>
         <Link className='font-bold text-black hover:text-amber-800' to='works'>Works</Link>
         <Link className='font-bold text-black hover:text-amber-800' to='contact'>Contact</Link>
