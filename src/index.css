@@ -15,3 +15,18 @@ span{
   -webkit-text-fill-color: transparent;
 }
 
+
+.active hr{
+    @apply block
+}
+
+::-webkit-scrollbar{
+    overflow: hidden;
+}
+
+@media(max-width: 740px) {
+    .active p{
+        @apply bg-black text-white
+    }
+}
+

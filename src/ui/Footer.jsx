@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
-    <footer className='py-10 px-6 md:px-10 lg:px-24 bg-gradient-to-l from-[#92400E] to-[rgb(223,137,8)] h-[50%] text-white'>
+    <footer className='py-10 px-6 md:px-10 lg:px-24 bg-gradient-to-l from-[#92400E] to-[rgb(223,137,8)] h-[50%] text-white/80'>
         <div className='pb-10 text-white/60'>
             <Logo />
         </div>
@@ -13,7 +13,7 @@ export default function Footer() {
             {/*---------Left Section-----------*/}
 
             <div>
-                 <p className='w-full md:w-3/4 lg:w-full  text-white leading-6 '>Lorem ipsum dolor sit amet 
+                 <p className='w-full md:w-3/4 lg:w-full text-[15px] leading-6 '>Lorem ipsum dolor sit amet 
                    consectetur adipisicing elit. 
                    Nemo autem impedit asperiores soluta iusto necessitatibus magnam, 
                    repellat maiores omnis molestiae quasi iste delectus, harum voluptatibus 
@@ -25,17 +25,17 @@ export default function Footer() {
             {/*---------Center Section-----------*/}
               <div className='lg:ml-12 lg:pl-12'>
                 <p>QUICK LINKS</p>
-                <p className='hover:text-white/60 hover:font-bold'><Link to='/'>Home</Link></p>
-                <p className='hover:text-white/60 hover:font-bold'><Link to='about'>About</Link></p>
-                <p className='hover:text-white/60 hover:font-bold'><Link to='services'>Services</Link></p>
-                <p className='hover:text-white/60 hover:font-bold'><Link to='works'>Works</Link></p>
-                <p className='hover:text-white/60 hover:font-bold'><Link to='contact'>Contact</Link></p>
+                <p className='text-[15px] hover:text-white/60 hover:font-bold'><Link to='/'>Home</Link></p>
+                <p className=' text-[15px] hover:text-white/60 hover:font-bold'><Link to='about'>About</Link></p>
+                <p className='text-[15px] hover:text-white/60 hover:font-bold'><Link to='services'>Services</Link></p>
+                <p className='text-[15px] hover:text-white/60 hover:font-bold'><Link to='works'>Works</Link></p>
+                <p className='text-[15px] hover:text-white/60 hover:font-bold'><Link to='contact'>Contact</Link></p>
 
               </div>
             </div>
 
             {/*---------Right Section-----------*/}
-            <div className='space-y-1'>
+            <div className='space-y-1 text-[15px]'>
                 <p>CONTACT</p>
                 <p>Phone: +234-8065292598</p>
                 <p>Email: succychris675@gmail.com</p>
@@ -46,7 +46,7 @@ export default function Footer() {
             </div>
         </div>
             <hr className='mt-2' />
-        <p className="text-center pt-3">&copy; GlambyLaSauce 2025</p>
+        <p className="text-center pt-3 pb-[-12px] text-[15px]">Copyright &copy; GlambyLaSauce 2025</p>
     </footer>
   )
 }
