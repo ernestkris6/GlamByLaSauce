@@ -21,10 +21,9 @@ export default function Footer() {
                </div>
 
 
-            <div className=''>
             {/*---------Center Section-----------*/}
               <div className='lg:ml-12 lg:pl-12'>
-                <p>QUICK LINKS</p>
+                <p className='font-bold'>QUICK LINKS</p>
                 <p className='text-[15px] hover:text-white/60 hover:font-bold'><Link to='/'>Home</Link></p>
                 <p className=' text-[15px] hover:text-white/60 hover:font-bold'><Link to='about'>About</Link></p>
                 <p className='text-[15px] hover:text-white/60 hover:font-bold'><Link to='services'>Services</Link></p>
@@ -32,11 +31,10 @@ export default function Footer() {
                 <p className='text-[15px] hover:text-white/60 hover:font-bold'><Link to='contact'>Contact</Link></p>
 
               </div>
-            </div>
 
             {/*---------Right Section-----------*/}
             <div className='space-y-1 text-[15px]'>
-                <p>CONTACT</p>
+                <p className='font-bold'>CONTACT</p>
                 <p>Phone: +234-8065292598</p>
                 <p>Email: succychris675@gmail.com</p>
                 <p>Instagram: Glambylasauce</p>
@@ -74,50 +72,3 @@ export default function Footer() {
 
 
 
-
-
-
-
-
-// {/* <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr]'>
-
-
-//             {/*---------Center Section-------*/}
-//            <div>
-//             <p className='text-xl font-medium mb-5'>COMPANY</p>
-//             <ul className='flex flex-col gap-2 text-gray-600'>
-//               <li>Home</li>
-//               <li>About Us</li> 
-//               <li>Contact Us</li>
-//               <li>Privacy policy</li>
-//             </ul>
-//           </div>
-
-//            <div>
-//                 <p className='text-xl font-medium mb-5'>GET IN TOUCH</p>
-//                 <ul className='flex flex-col gap-2 text-gray-600'>
-//                   <li>+1-212-456-7980</li>
-//                   <li>prescripto@gmail.com</li>
-//                 </ul>
-//             </div>
-            
-//             {/*QUICK LINKS*/}
-//             <div className='flex '>
-//                 <p>Quick Links</p>
-//                 <p>About</p>
-//                 <p>Services</p>
-//                 <p>Contact</p>
-//             </div>
-            
-
-//             {/*CONTACTS*/}
-
-//             <div>
-//                 <p>Phone</p>
-//                 <p>Email</p>
-//                 <p>Instagram</p>
-//                 <p>WhatsApp</p>
-//                 <p>Location</p>
-//             </div>
-            
-//         </div> */}

@@ -4,15 +4,15 @@ import Button from '../ui/Button'
 
 export default function About() {
   return (
-    <div className='px-6 md:px-10 lg:px-24 mt-8'>
-      <div className='text-center text-gray-600 mb-8 md:hidden'> 
-        <h1 className='font-bold'>GET TO <span> KNOW US</span></h1>
+    <div className='px-6 md:px-10 lg:px-24'>
+      <div className='text-center text-2xl py-6 text-gray-500'>
+        <p>ABOUT <span className='font-medium'>US</span></p>
       </div>
 
      <div className='flex flex-col md:flex-row gap-12 mb-12'>
           <img className='w-full md:max-w-[360px] rounded-md' src={succy} alt="" />
             <div className='items-center text-gray-600  justify-center'>
-              <h1 className='hidden md:flex font-bold md:pt-2  mb:pb-6 gap-1'>Get to <span>KNOW US</span></h1>
+              <h1 className='font-bold md:pt-2  mb:pb-6 gap-1'>Get to <span>KNOW US</span></h1>
             <p className='text-[15px]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae inventore reiciendis totam illum qui labore sequi quibusdam. Cum minus optio modi odio officiis, saepe, soluta repudiandae mollitia eius accusamus aspernatur.</p> <br />
 
             <p className='text-[15px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dignissimos facere rem praesentium culpa cupiditate doloremque dolorem molestias incidunt necessitatibus eum, sunt deserunt fugit illo, eveniet a veritatis voluptatibus magni.</p>
@@ -41,7 +41,7 @@ export default function About() {
           Healthcare Professionals In Your Area.</p>
           </div>
 
-          <div className='border rounded-lg px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-amber-700 hover:text-white duration-500 text-gray-600 cursor-pointer'>
+          <div className='border rounded-lg px-10 md:px-12 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-amber-700 hover:text-white duration-500 text-gray-600 cursor-pointer'>
           <b>EXQUISITE SERVICE:</b>
           <p>Tailored Recommendations and Reminders
           To Help You Stay On Top of Your Health.</p>
