@@ -7,7 +7,7 @@ body {
 
 }
 
-
+@custom-variant hover (&:hover);
 
 span{
   background: linear-gradient(270deg, #92400E 10%, #DF8908 100% );
