@@ -27,3 +27,5 @@ export default function Collection() {
     //     <img className='' src={bg} alt="" />
         
     // </section>
+
+

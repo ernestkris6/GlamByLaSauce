@@ -14,7 +14,7 @@ export default function Contact() {
           <img className='w-full md:max-w-[360px]' src={succy} alt="" />
           <div className='flex flex-col justify-center items-start gap-6'>
             <p className='font-semibold text-lg text-gray-600'>OUR OFFICE</p>
-            <p className='text-gray-500'>Bariga, Lagos Nigeria</p>
+            <p className='text-gray-500'>Onike Yaba, Lagos Nigeria</p>
             <p className='text-gray-500'>Tel/WhatsApp: (234) 8065292598 <br /> Email: succychris675@gmail.com</p>
             <p  className='text-lg font-semibold text-gray-600'>ACTIVITIES at GLAM-BY-LASAUCE</p>
             <p className='text-gray-500'>Learn more about our activities and events.</p>

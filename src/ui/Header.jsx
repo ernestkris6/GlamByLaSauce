@@ -15,14 +15,14 @@ export default function Header() {
 
   //items-center justify-between text-sm py-4 mb-5 border-b border-b-gray-400
   return (
-    <div className='flex justify-between px-6 md:px-10 lg:px-24 py-8'>
+    <div className='flex justify-between items-center px-6 md:px-10 lg:px-24 pt-4 pb-1'>
       <Logo />
   
       {/*----------desktop menu----------*/}
 
         <ul className='hidden md:flex space-x-6 mx-8'>
         <li>
-          <NavLink to='about' className='font-bold text-black hover:text-amber-800'>About</NavLink>
+          <NavLink  to='about' className='font-bold text-black hover:text-amber-800'>About</NavLink>
         </li>
         
           <li>
