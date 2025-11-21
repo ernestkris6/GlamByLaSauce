@@ -24,17 +24,3 @@ span{
 ::-webkit-scrollbar{
     overflow: hidden;
 }
-
-/* @media(max-width: 740px) {
-    .active p{
-        @apply bg-primary text-white
-    }
-} */
-
-
-
-@media(max-width: 740px) {
-    .active p{
-        @apply bg-red-300 text-white
-    }
-}
