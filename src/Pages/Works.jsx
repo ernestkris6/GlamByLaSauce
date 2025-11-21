@@ -28,7 +28,7 @@ export default function Works() {
         Healthcare Professionals In Your Area.</p>
         </div>
 
-        <div className='border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-primary hover:text-white duration-500 text-gray-600 cursor-pointer'>
+        <div className='border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-red-200 hover:text-red-700 duration-500 text-gray-600 cursor-pointer'>
         <b>PERSONALIZATION:</b>
         <p>Tailored Recommendations and Reminders
         To Help You Stay On Top of Your Health.</p>

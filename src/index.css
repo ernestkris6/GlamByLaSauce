@@ -1,14 +1,5 @@
-/* @import "tailwindcss"; */
+@import "tailwindcss";
 
-/* @media(max-width: 740px) {
-    .active p{
-        @apply bg-primary text-white
-    }
-} */
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 body {
     background-color: #F8F5F0;
@@ -34,9 +25,16 @@ span{
     overflow: hidden;
 }
 
+/* @media(max-width: 740px) {
+    .active p{
+        @apply bg-primary text-white
+    }
+} */
+
+
+
 @media(max-width: 740px) {
     .active p{
-        @apply bg-black text-white
+        @apply bg-red-300 text-white
     }
 }
-
