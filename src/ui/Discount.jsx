@@ -6,7 +6,7 @@ import Button from './Button';
 export default function Discount() {
   return (
 
-    <div className='bg-[#fff] shadow-2xl mt-4 mb-8'>
+    <div className='flex flex-col md:flex-row bg-[#fff] mx-[14px] shadow-2xl mt-4 mb-8 md:mb-24 pb-6 md:mt-[64px] lg:mt-[42px] md:mr-[64px] md:ml-[48px] lg:mr-[132px] lg:ml-24 px-6 md:px-10 lg:px-24'>
         <div className='flex flex-col md:flex-row'>
                     <p>CHOOSE YOUR PLAN</p>
                         <div>
