@@ -13,11 +13,8 @@ export default function Footer() {
             {/*---------Left Section-----------*/}
 
             <div>
-                 <p className='w-full md:w-3/4 lg:w-full text-[15px] leading-6 '>Lorem ipsum dolor sit amet 
-                   consectetur adipisicing elit. 
-                   Nemo autem impedit asperiores soluta iusto necessitatibus magnam, 
-                   repellat maiores omnis molestiae quasi iste delectus, harum voluptatibus 
-                   consequuntur nisi rerum maxime est.</p>
+                 <p className='w-full text-justify md:w-3/4 lg:w-full text-[15px] leading-6 '>Thank you for joining us on this journey to inspire, empower, and elevate your everyday glam.We are always here to ensure your beauty and your glow.</p>
+                 <p className='w-full text-justify md:w-3/4 lg:w-full text-[15px] leading-6 '>“Feel free to express your true self with Glam by La Sauce. Your glam, your story.”</p>
                </div>
 
 
