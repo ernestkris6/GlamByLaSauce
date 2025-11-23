@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
   return (
     <footer className='py-10 px-6 md:px-10 lg:px-24 bg-gradient-to-l from-[#92400E] to-[rgb(223,137,8)] h-[50%] text-white/80'>
-        <div className='pb-10 text-white/60'>
+        <div className='pb-10 text-white/60' onClick={() => scrollTo(0,0)}>
             <Logo />
         </div>
 
