@@ -15,9 +15,9 @@ export default function Discount() {
                 <div className='text-black'>  
                     <div className='pt-12 sm:pt-8'>
                              <p className='text-xs sm:text-sm font-bold'><span>CHOOSE YOUR PLAN</span></p>
-                             <p className='text-start font-semibold text-xs sm:text-2xl pt-4'>Get Discount</p>
-                             <p className='text-start font-semibold text-xs  sm:text-2xl'>up to 60% off</p>
-                             <p className='text-start font-semibold text-xs sm:text-2xl sm:space-x-3.5'>for Limited Time</p>
+                             <p className='text-start font-semibold text-md sm:text-2xl pt-4'>Get Discount</p>
+                             <p className='text-start font-semibold text-md  sm:text-2xl'>up to 60% off</p>
+                             <p className='text-start font-semibold text-md sm:text-2xl sm:space-x-3.5'>for Limited Time</p>
                              <img className='hidden w-24 h-4 ml-10 sm:w-full sm:h-full sm:ml-12 sm:block' src={imageLine} alt="" />
                     
                     </div>
