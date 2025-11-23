@@ -8,7 +8,7 @@ export default function HeroSection() {
 
       {/* Text and button */}
 
-      <div className='flex flex-col md:w-1/2 items-start justify-center pt-12 sm:pt-18 pb-8 sm:pb-24 md:pb-32 lg:pb-44'>
+      <div className='flex flex-col md:w-1/2 items-start justify-center pt-12 sm:pt-18 pb-8 sm:pb-24 md:pb-32 lg:pb-44 xl:pb-48'>
           <p className='uppercase font-bold text-4xl text-center'><span>professional</span></p>
           <p className='uppercase font-bold text-4xl pb-8 '><span>makeup artist</span></p>
           <div className='w-full font-semibold'>
