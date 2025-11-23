@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from './Button'
 import unsplash1 from '../assets/unsplash1.png'
+import { Link } from 'react-router-dom'
 
 export default function HeroSection() {
   return (
@@ -12,9 +13,10 @@ export default function HeroSection() {
                       <h2 className='text-start text-gray-600  font-bold'>GLAM BY <span>LA SAUCE</span></h2>
                       <p className='text-start uppercase font-bold text-4xl'><span>professional</span></p>
                       <p className='text-start uppercase font-bold text-4xl pb-8 '><span>makeup artist</span></p>
-                      <p className='text-[15px] font-semibold pb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius dolores nostrum ad architecto nihil, sequi tenetur cumque maiores vitae distinctio voluptatum molestiae, quasi quisquam culpa, animi iste similique minus ipsam?</p>
+                      <p className='text-[15px] font-semibold pb-4'>Discover makeup crafted with intention, skill, and a touch of signature glam that make you radiant, confident, and authentically you.
+                      At Glam by La Sauce, every look is tailored to elevate your confidence and celebrate your unique beauty.</p>
                     </div>
-                    <Button type="span">Booking Now</Button> 
+                    <Link to='contact'><Button  type="span">Booking Now</Button></Link> 
                 </div>      
            </div>
       
