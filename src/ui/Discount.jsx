@@ -9,7 +9,7 @@ export default function Discount() {
 
   return (
     <div className='bg-[#fff] mx-[14px] shadow-2xl px-6 mt-4 mb-8 md:mb-24 md:mt-[64px] lg:mt-[78px] md:mr-[64px] md:ml-[48px] lg:mr-[132px] lg:ml-24 md:px-10 lg:px-24'>
-       <div className='grid grid-cols-[1fr_1fr] justify-between gap-4 md:gap-12 md:mb-12'>
+       <div className='grid grid-cols-[1fr_1fr] justify-between gap-4 md:gap-12 xl:gap-x-18 md:mb-12'>
              <img className='order-last min-w-[120px] min-h-[360px] py-12 sm:w-full sm:h-full sm:py-6 sm:max-w-[360px]' src={succy} alt="" />
                 <div className='text-black'>  
                     <div className='pt-12 sm:pt-8'>

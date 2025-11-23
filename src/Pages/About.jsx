@@ -50,10 +50,9 @@ export default function About() {
           <p>Modern, confidence-boosting designs for any look—either soft or bold, innovative, inspiring.</p>
           </div>
       </div>
-      
-      <div className='text-center mt-[-24px]'>
-        <Button type='flat'>BOOK US NOW</Button>
-      </div>
+          <div className='text-center mt-[-24px]'>
+            <Button type='flat'>BOOK US NOW</Button>
+          </div>
       </div>
     </div>
   )
