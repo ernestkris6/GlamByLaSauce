@@ -14,21 +14,22 @@ export default function HeroSection() {
           <div className='mt-4 w-full font-semibold'>
             <p className='text-justify justify-center tracking-tight pb-2 md:pr-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit laborum autem esse quae quos! Tenetur quos ea facilis necessitatibus molestias architecto esse rem harum culpa, dicta, sapiente fuga corporis unde!</p>
           </div>
-          <Button type="span">Booking Now</Button> <br />
-          {/* <Button type="flat">Booking Now</Button> */}
-
-          
+          <div className='md:mb-8'>
+            <Button type="span">Booking Now</Button> 
+          </div>
       </div>
 
-
-
       {/*Image*/}
-      <div className='md:w-1/2 md:gap-8 lg:pl-48 xl:pl-64'>
-        <img className='m-auto sm:mt-[42px] bg-cover bottom-0 h-20vh rounded-lg relative' src={unsplash1} alt="" />
+      <div className='md:w-1/2 md:gap-8 lg:pl-48 md:mt-8 xl:pl-64'>
+        <img className='w-full md:max-w-[360px] rounded-md relative' src={unsplash1} alt="" />
       </div>
     </div>
   )
 }
+
+//m-auto sm:mt-[42px] bg-cover bottom-0 h-20vh rounded-lg relative
+
+//w-full md:max-w-[360px] rounded-md
 
 //bg-gradient-to-r from-red-500 via-orange-500 to-purple-500
 
