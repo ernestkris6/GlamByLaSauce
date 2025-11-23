@@ -4,17 +4,15 @@ import unsplash1 from '../assets/unsplash1.png'
 
 export default function HeroSection() {
   return (
-    <div className='flex flex-col sm:flex-row flex-wrap rounded-lg px-6 md:px-10 lg:px-24'>
+    <div className='flex flex-col sm:flex-row flex-wrap rounded-lg px-6 md:px-10 lg:px-24 md:mt-[-24]'>
 
       {/* Text and button */}
 
-      <div className='flex flex-col md:w-1/2 items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:pb-[-30px]'>
+      <div className='flex flex-col md:w-1/2 items-start justify-center pt-12 sm:pt-18 pb-8 sm:pb-24 md:pb-32 lg:pb-44'>
           <p className='uppercase font-bold text-4xl text-center'><span>professional</span></p>
-          <p className='uppercase font-bold text-4xl '><span>makeup artist</span></p>
-          <div className='mt-4 w-full font-semibold'>
+          <p className='uppercase font-bold text-4xl pb-8 '><span>makeup artist</span></p>
+          <div className='w-full font-semibold'>
             <p className='text-justify justify-center tracking-tight pb-2 md:pr-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit laborum autem esse quae quos! Tenetur quos ea facilis necessitatibus molestias architecto esse rem harum culpa, dicta, sapiente fuga corporis unde!</p>
-          </div>
-          <div className='md:mb-8'>
             <Button type="span">Booking Now</Button> 
           </div>
       </div>
@@ -26,6 +24,8 @@ export default function HeroSection() {
     </div>
   )
 }
+
+//gap-4 py-10 m-auto
 
 //m-auto sm:mt-[42px] bg-cover bottom-0 h-20vh rounded-lg relative
 
