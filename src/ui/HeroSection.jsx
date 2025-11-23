@@ -20,7 +20,7 @@ export default function HeroSection() {
       </div>
 
       {/*Image*/}
-      <div className='md:w-1/2 md:gap-8 lg:pl-48 md:mt-8 xl:pl-64'>
+      <div className='md:w-1/2 md:gap-8 lg:pl-48 md:mt-8 xl:pl-72'>
         <img className='w-full md:max-w-[360px] rounded-md relative' src={unsplash1} alt="" />
       </div>
     </div>
