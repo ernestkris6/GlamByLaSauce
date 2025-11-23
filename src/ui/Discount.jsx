@@ -7,7 +7,6 @@ import imageLine from '../assets/image.png'
 
 export default function Discount() {
 
-
   return (
     <div className='bg-[#fff] mx-[14px] shadow-2xl px-6 mt-4 mb-8 md:mb-24 md:mt-[64px] lg:mt-[78px] md:mr-[64px] md:ml-[48px] lg:mr-[132px] lg:ml-24 md:px-10 lg:px-24'>
        <div className='grid grid-cols-[1fr_1fr] justify-between gap-4 md:gap-12 md:mb-12'>
