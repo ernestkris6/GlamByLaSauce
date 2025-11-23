@@ -90,7 +90,7 @@ export default function Discount() {
                             </ul>
                         </div>
                            <div className='block sm:hidden'>
-                             <Button type="small">Booking Now</Button>
+                             <Button type="small">Reserve</Button>
                            </div>
                             <div className='hidden sm:block'>
                                 <Button type="flat">Booking Now</Button>
