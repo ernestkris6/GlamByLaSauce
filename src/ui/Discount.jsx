@@ -10,15 +10,15 @@ export default function Discount() {
 
   return (
     <div className='bg-[#fff] mx-[14px] shadow-2xl px-6 mt-4 mb-8 md:mb-24 md:mt-[64px] lg:mt-[78px] md:mr-[64px] md:ml-[48px] lg:mr-[132px] lg:ml-24 md:px-10 lg:px-24'>
-       <div className='flex flex-row-reverse justify-between gap-12 mb-12'>
-             <img className='max-w-[180px] min-h-[360px] py-12 sm:w-full sm:h-full sm:py-6 sm:max-w-[360px]' src={succy} alt="" />
+       <div className='grid grid-cols-[1fr_1fr] justify-between gap-12 mb-12'>
+             <img className='order-last max-w-[180px] min-h-[360px] py-12 sm:w-full sm:h-full sm:py-6 sm:max-w-[360px]' src={succy} alt="" />
                 <div className='text-black'>  
                     <div className='pt-12 sm:pt-8'>
                              <p className='text-xs sm:text-sm font-bold'><span>CHOOSE YOUR PLAN</span></p>
                              <p className='text-start font-semibold text-md sm:text-2xl pt-4'>Get Discount</p>
                              <p className='text-start font-semibold text-md  sm:text-2xl'>up to 60% off</p>
                              <p className='text-start font-semibold text-md sm:text-2xl sm:space-x-3.5'>for Limited Time</p>
-                             <img className='hidden w-24 h-4 ml-10 sm:w-full sm:h-full sm:ml-12 sm:block' src={imageLine} alt="" />
+                             <img className='hidden md:max-w-[360px] h-7 ml-10 sm:ml-12 sm:block' src={imageLine} alt="" />
                     
                     </div>
                         <div className='pt-2 pb-2 sm:pt-4 sm:pb-4'>
