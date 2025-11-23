@@ -24,11 +24,11 @@ export default function Footer() {
             {/*---------Center Section-----------*/}
               <div className='lg:ml-12 lg:pl-12'>
                 <p className='font-bold'>QUICK LINKS</p>
-                <p className='text-[15px] hover:text-white/60 hover:font-bold'><Link to='/'>Home</Link></p>
-                <p className=' text-[15px] hover:text-white/60 hover:font-bold'><Link to='about'>About</Link></p>
-                <p className='text-[15px] hover:text-white/60 hover:font-bold'><Link to='services'>Services</Link></p>
-                <p className='text-[15px] hover:text-white/60 hover:font-bold'><Link to='works'>Works</Link></p>
-                <p className='text-[15px] hover:text-white/60 hover:font-bold'><Link to='contact'>Contact</Link></p>
+                <p className='text-[15px] hover:text-white/60 hover:font-bold' onClick={()=> scrollTo(0,0)}><Link to='/'>Home</Link></p>
+                <p className=' text-[15px] hover:text-white/60 hover:font-bold'><Link to='about' onClick={()=> scrollTo(0,0)}>About</Link></p>
+                <p className='text-[15px] hover:text-white/60 hover:font-bold'><Link to='services' onClick={()=> scrollTo(0,0)}>Services</Link></p>
+                <p className='text-[15px] hover:text-white/60 hover:font-bold' onClick={()=> scrollTo(0,0)}><Link to='works'>Works</Link></p>
+                <p className='text-[15px] hover:text-white/60 hover:font-bold' onClick={()=> scrollTo(0,0)}><Link to='contact'>Contact</Link></p>
 
               </div>
 
@@ -44,11 +44,10 @@ export default function Footer() {
             </div>
         </div>
             <hr className='mt-2' />
-        <p className="text-center pt-3 pb-[-12px] text-[15px]">Copyright &copy; GlambyLaSauce 2025</p>
+        <p className="text-center pt-3 pb-[-12px] text-[12px]">Copyright &copy; GlambyLaSauce 2025</p>
     </footer>
   )
 }
-
 
 
 

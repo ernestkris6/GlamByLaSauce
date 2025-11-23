@@ -9,6 +9,10 @@ body {
 
 @custom-variant hover (&:hover);
 
+.active {
+  @apply block text-amber-700;
+}
+
 span{
   background: linear-gradient(270deg, #92400E 10%, #DF8908 100% );
   background-clip: text;
@@ -16,10 +20,9 @@ span{
   -webkit-text-fill-color: transparent;
 }
 
-
-.active hr{
+/* .active hr{
     @apply block
-}
+} */
 
 ::-webkit-scrollbar{
     overflow: hidden;
