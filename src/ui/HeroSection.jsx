@@ -12,7 +12,7 @@ export default function HeroSection() {
           <p className='uppercase font-bold text-4xl text-center'><span>professional</span></p>
           <p className='uppercase font-bold text-4xl pb-8 '><span>makeup artist</span></p>
           <div className='w-full font-semibold'>
-            <p className='text-justify justify-center tracking-tight pb-2 md:pr-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit laborum autem esse quae quos! Tenetur quos ea facilis necessitatibus molestias architecto esse rem harum culpa, dicta, sapiente fuga corporis unde!</p>
+            <p className='text-justify justify-center tracking-tight pb-2 md:pr-6 xl:pb-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit laborum autem esse quae quos! Tenetur quos ea facilis necessitatibus molestias architecto esse rem harum culpa, dicta, sapiente fuga corporis unde!</p>
             <Button type="span">Booking Now</Button> 
           </div>
       </div>
