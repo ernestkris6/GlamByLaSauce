@@ -14,7 +14,7 @@ export default function HeroSection() {
                       <p className='text-start uppercase font-bold text-4xl'><span>professional</span></p>
                       <p className='text-start uppercase font-bold text-4xl pb-8 '><span>makeup artist</span></p>
                       <p className='text-[15px] font-semibold pb-4'>Discover makeup crafted with intention, skill, and a touch of signature glam that make you radiant, confident, and authentically you.
-                      At Glam by La Sauce, every look is tailored to elevate your confidence and celebrate your unique beauty.</p>
+                      </p>
                     </div>
                     <Link to='contact' onClick={()=> scrollTo(0,0)}><Button  type="span">Booking Now</Button></Link> 
                 </div>      
@@ -23,6 +23,13 @@ export default function HeroSection() {
     </div>
   )
 }
+
+
+
+
+
+
+//At Glam by La Sauce, every look is tailored to elevate your confidence and celebrate your unique beauty.
 
 
 
