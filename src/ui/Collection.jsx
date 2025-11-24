@@ -3,8 +3,8 @@ import bg from '../assets/bg.jpg'
 
 export default function Collection() {
   return (
-   <div>
-        <section 
+   <section>
+        <div 
             style={{backgroundImage: `url(${bg})`}}
             className={`relative mt-16 md:mt-14 bg-cover bg-no-repeat pb-10 w-full h-[50vh] md:h-[65vh] mb-14`}>
                 {/* <div className='absolute justify-center items-center top-12 bottom-12 sm:top-18 sm:bottom-18 bg-[#fff]'>
@@ -12,20 +12,10 @@ export default function Collection() {
 
                     <img src="" alt="" />
                 </div> */}
-        </section>
-   </div>
+        </div>
+   </section>
   )
 }
 
-//url(${bg})
-//w-full absolute bottom-0 right-0 max-w-md
-//bg-cover bg-center bg-no-repeat min-h-screen flex items-center justify-center text-white
-
-//bg-cover bg-center bg-no-repeat h-screen flex items-center justify-center
-
-////  <section className=''>
-    //     <img className='' src={bg} alt="" />
-        
-    // </section>
 
 

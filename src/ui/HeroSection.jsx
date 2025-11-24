@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 export default function HeroSection() {
   return (
-    <div className='px-6 md:px-10 lg:px-24 pt-8'>
+    <section className='px-6 md:px-10 lg:px-24 pt-8'>
       <div className='flex flex-col md:flex-row-reverse gap-12 mb-12'>
                 <img className='w-full md:max-w-[360px] rounded-md' src={unsplash1} alt="" />
                   <div className='items-center text-gray-600 justify-center'>  
@@ -20,7 +20,7 @@ export default function HeroSection() {
                 </div>      
            </div>
       
-    </div>
+    </section>
   )
 }
 
