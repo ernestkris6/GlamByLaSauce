@@ -33,10 +33,10 @@ export default function Footer() {
             <div className='space-y-1 text-[15px]'>
                 <p className='font-bold'>CONTACT</p>
                 <p>Phone: +234-8065292598</p>
-                <p>Email: succychris675@gmail.com</p>
+                <p>Email: succychris6@gmail.com</p>
                 <p>Instagram: Glambylasauce</p>
                 <p>WhatsApp: +234-8065292598</p>
-                <p>Location: Bariga, Lagos.</p>
+                <p>Location: Onike Yaba, Lagos Nigeria.</p>
 
             </div>
         </div>
