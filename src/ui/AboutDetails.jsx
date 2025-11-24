@@ -9,7 +9,7 @@ export default function AboutDetails() {
         <p>ABOUT <span className='font-medium'>US</span></p>
       </div>
 
-     <div className='flex flex-col md:flex-row gap-12 mb-12'>
+     <section className='flex flex-col md:flex-row gap-12 mb-12'>
           <img className='w-full md:max-w-[360px] rounded-md' src={succy} alt="" />
             <div className='items-center text-gray-600  justify-center text-justify'>
               <h1 className='font-bold md:pt-2  mb:pb-6 gap-1'>Get to <span>KNOW US</span></h1>
@@ -27,10 +27,10 @@ export default function AboutDetails() {
             <p className='text-[15px]'>Our vision is to redefine beauty as a celebration of individuality—creating a space where every person feels seen, confident, and empowered. We strive to inspire self-expression through high-quality beauty solutions that honor every skin tone, every style, and every story.”</p>
             </div>
           </div>      
-     </div>
+     </section>
 
 
-      <div className='pt-12 mb-12'>
+      <section className='pt-12 mb-12'>
         <h2 className='font-bold pb-3 text-gray-800  text-center'>WHY <span>CHOOSE US</span></h2>
 
         <div className='flex flex-col md:flex-row mb-20'>
@@ -53,7 +53,7 @@ export default function AboutDetails() {
           <div className='text-center mt-[-24px]'>
             <Button type='flat'>BOOK US NOW</Button>
           </div>
-      </div>
+      </section>
     </div>
   )
 }

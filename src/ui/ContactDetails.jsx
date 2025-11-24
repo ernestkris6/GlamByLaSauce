@@ -10,7 +10,7 @@ export default function ContactDetails() {
         <p>CONTACT <span className='font-medium'>US</span></p>
       </div>
 
-      <div className='flex flex-col md:flex-row my-10 justify-center gap-10 mb-28 text-sm'>
+      <section className='flex flex-col md:flex-row my-10 justify-center gap-10 mb-28 text-sm'>
           <img className='w-full md:max-w-[360px]' src={succy} alt="" />
           <div className='flex flex-col justify-center items-start gap-6'>
             <p className='font-semibold text-lg text-gray-600'>OUR OFFICE</p>
@@ -18,10 +18,9 @@ export default function ContactDetails() {
             <p className='text-gray-500'>Tel/WhatsApp: (234) 8065292598 <br /> Email: succychris675@gmail.com</p>
             <p  className='text-lg font-semibold text-gray-600'>ACTIVITIES at GLAM-BY-LASAUCE</p>
             <p className='text-gray-500'>Learn more about our activities and events.</p>
-            {/* <button className='border py-3 px-6 bg-white hover:bg-primary hover:text-white duration-500 transition-all'>Explore more</button> */}
             <Button type='flat'>Explore more</Button>
           </div>
-        </div>
+        </section>
     </div>
   )
 }
