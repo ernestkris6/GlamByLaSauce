@@ -37,10 +37,12 @@ const Carousel = ({ carouselData, quoteAuthor }) => {
     return setSlideNum((prev) => (prev += 1));
   };
 
+  //slider
   useEffect(() => {
     setTranslatePosition(slideNum * (100 / carouselData?.length));
   }, [slideNum, carouselData?.length]);
 
+  //pagination
   useEffect(() => {
     setCarouselSliderWidth(carouselData?.length * 100);
     setNavigationButtonArr(
@@ -48,10 +50,12 @@ const Carousel = ({ carouselData, quoteAuthor }) => {
     );
   }, [carouselData?.length]);
 
+
+  //slider timing
   useEffect(() => {
     const timer = setInterval(()=> {
         setSlideNum(prev => (prev + 1) % carouselData.length)
-    }, 3000)
+    }, 4000)
         return () => clearInterval(timer)
   }, [slideNum, carouselData.length])
   
