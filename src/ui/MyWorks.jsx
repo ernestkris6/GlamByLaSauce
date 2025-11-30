@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import succy from "../assets/succy.jpg"
+import { BsArrowRight } from 'react-icons/bs'
 
 const imageData = [
     {
@@ -51,21 +52,22 @@ export default function MyWorks() {
   return (
     <section className='py-10 px-6 md:px-10 lg:px-24 mb-6 md:mb-8'>
         {/*Texts*/}
-        <div className='flex flex-row justify-between items-center pb-4'>
+        <div className='flex flex-row justify-between items-center pb-6 md:pb-8'>
             <p className='text-black uppercase font-bold text-xl'>my works</p>
-            <Link to='works'>
-                <p className='text-amber-800 font-semibold'>See All</p>
+            <Link to='works' onClick={()=> scrollTo(0,0)}>
+                <p className='text-amber-800 font-semibold text-sm underline'>See All</p>
+                
             </Link>
         </div>
 
         {/*Photos*/}
-        <div className="grid grid-cols-[1fr_1fr] md:grid-cols-[1fr_1fr_1fr_1fr] gap-4 ">
+        <div className="grid grid-cols-[1fr_1fr] md:grid-cols-[1fr_1fr_1fr_1fr] gap-4">
           {imageData?.map((item, id) => {
             return (
-                <div key={id}>
-                    <img className='pb-1' src={item.img} alt="" />
-                    <p>{item.text}</p>
-                    <hr className='pb-3'/>
+                <div className='pb-8' key={id}>
+                    <img className='pb-1 rounded hover:-translate-y-2 duration-500 transition-transform cursor-pointer' src={item.img} alt="" />
+                    <p className='font-medium text-sm md:text-base'>{item.text}</p>
+                    <hr/>
                    
                 </div>
             )
@@ -74,12 +76,3 @@ export default function MyWorks() {
     </section>
   )
 }
-
-
-//  {imageData?.map((item, id) => {
-//             return(
-//                 <div key={id}>
-//                     <p>{item.text}</p>
-//                 </div>
-//             )
-//            })}
