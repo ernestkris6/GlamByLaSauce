@@ -54,8 +54,8 @@ export default function MyWorks() {
         {/*Texts*/}
         <div className='flex flex-row justify-between items-center pb-6 md:pb-8'>
             <p className='text-black uppercase font-bold text-xl'>my works</p>
-            <Link to='works' onClick={()=> scrollTo(0,0)}>
-                <p className='text-amber-800 font-semibold text-sm underline'>See All</p>
+            <Link to='works'>
+                <p onClick={() => scrollTo(0,0)} className='text-amber-800 font-semibold text-sm underline'>See All</p>
                 
             </Link>
         </div>
