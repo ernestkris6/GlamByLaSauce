@@ -34,7 +34,7 @@ export default function Footer() {
                 <p className='font-bold'>CONTACT</p>
                 <p>Phone: +234-8065292598</p>
                 <p>Email: succychris6@gmail.com</p>
-                <p>Instagram: Glambylasauce</p>
+                <p>Instagram: glamby_lasauce</p>
                 <p>WhatsApp: +234-8065292598</p>
                 <p>Location: Onike Yaba, Lagos Nigeria.</p>
 

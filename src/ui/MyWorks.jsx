@@ -1,48 +1,55 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import gram2 from "../assets/gram2.jpg"
+import gram3 from "../assets/gram3.jpg"
+import gram8 from "../assets/gram8.jpg"
+import gram13 from "../assets/gram13.jpg"
+import glam24 from "../assets/glam24.jpg"
+import gram25 from "../assets/gram25.jpg"
+import gram26 from "../assets/gram26.jpg"
+import gram27 from "../assets/gram27.jpg"
 
-import succy from "../assets/succy.jpg"
-import { BsArrowRight } from 'react-icons/bs'
+
 
 const imageData = [
     {
         id : 1,
-        img: succy,  
-        text: "Prewed",
+        img: glam24,  
+        text: "Photo Shoot",
     },
     {
         id : 2,
-        img: succy,
+        img: gram3,
         text: "Bridal",
     },
     {
         id : 3,
-        img: succy,
+        img: gram8,
         text: "Photo shoot",
     },
     {
         id : 4,
-        img: succy,  
+        img: gram25,  
         text: "Prewed",
     },
     {
         id : 5,
-        img: succy,  
-        text: "Engagement",
+        img: gram13,  
+        text: "Prewed",
     },
     {
         id : 6,
-        img: succy,
-        text: "Prewed",  
+        img: gram2,
+        text: "Engagement",  
     },
     {
         id : 7,
-        img: succy,
+        img: gram26,
         text: "Graduation", 
     },
     {
         id : 8,
-        img: succy,  
+        img: gram27,  
         text: "Photo shoot",
     },
 
@@ -65,7 +72,7 @@ export default function MyWorks() {
           {imageData?.map((item, id) => {
             return (
                 <div className='pb-8' key={id}>
-                    <img className='pb-1 rounded hover:-translate-y-2 duration-500 transition-transform cursor-pointer' src={item.img} alt="" />
+                    <img className='pb-1 rounded hover:-translate-y-2 duration-500 transition-transform cursor-pointer w-72' src={item.img} alt="" />
                     <p className='font-medium text-sm md:text-base'>{item.text}</p>
                     <hr/>
                    
