@@ -24,13 +24,13 @@ const imageData = [
     },
     {
         id : 3,
-        img: gram8,
-        text: "Photo shoot",
+        img: gram25,
+        text: "Prewed",
     },
     {
         id : 4,
-        img: gram25,  
-        text: "Prewed",
+        img: gram8,  
+        text: "Photo shoot",
     },
     {
         id : 5,
@@ -39,13 +39,13 @@ const imageData = [
     },
     {
         id : 6,
-        img: gram27,
-        text: "Photo Shoot",  
+        img: gram26,
+        text: "Graduation",  
     },
     {
         id : 7,
-        img: gram26,
-        text: "Graduation", 
+        img: gram27,
+        text: "Photo Shoot", 
     },
     {
         id : 8,
