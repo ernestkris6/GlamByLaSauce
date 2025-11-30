@@ -52,7 +52,9 @@ export default function MyWorks() {
         {/*Texts*/}
         <div className='flex flex-row justify-between items-center pb-4'>
             <p className='text-black uppercase font-bold text-xl'>my works</p>
-            <p className='text-amber-800 font-semibold'>See All</p>
+            <Link to='works'>
+                <p className='text-amber-800 font-semibold'>See All</p>
+            </Link>
         </div>
 
         {/*Photos*/}
