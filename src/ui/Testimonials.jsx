@@ -101,9 +101,6 @@ const content = [
   },
 ];
 
-
-
-
 export default function Testimonials() {
   return (
     <section className="py-10 px-6 md:px-10 lg:px-24 relative flex h-fit items-center justify-center bg-[#F8FBFF] pb-[2rem] pt-[2rem] ">
