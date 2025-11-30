@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import gram2 from "../assets/gram2.jpg"
 import gram3 from "../assets/gram3.jpg"
 import gram8 from "../assets/gram8.jpg"
-import gram13 from "../assets/gram13.jpg"
+import gram28 from "../assets/gram28.jpg"
 import glam24 from "../assets/glam24.jpg"
 import gram25 from "../assets/gram25.jpg"
 import gram26 from "../assets/gram26.jpg"
@@ -34,13 +34,13 @@ const imageData = [
     },
     {
         id : 5,
-        img: gram13,  
-        text: "Prewed",
+        img: gram2,  
+        text: "Engagement",
     },
     {
         id : 6,
-        img: gram2,
-        text: "Engagement",  
+        img: gram27,
+        text: "Photo Shoot",  
     },
     {
         id : 7,
@@ -49,8 +49,8 @@ const imageData = [
     },
     {
         id : 8,
-        img: gram27,  
-        text: "Photo shoot",
+        img: gram28,  
+        text: "Facials",
     },
 
 ]
