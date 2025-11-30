@@ -59,7 +59,7 @@ export default function MyWorks() {
         </div>
 
         {/*Photos*/}
-        <div className="grid grid-cols-[1fr_1fr] md:grid-cols-[1fr_1fr_1fr_1fr] gap-2 ">
+        <div className="grid grid-cols-[1fr_1fr] md:grid-cols-[1fr_1fr_1fr_1fr] gap-4 ">
           {imageData?.map((item, id) => {
             return (
                 <div key={id}>
