@@ -49,7 +49,7 @@ const imageData = [
 
 export default function MyWorks() {
   return (
-    <section className='py-10 px-6 md:px-10 lg:px-24'>
+    <section className='py-10 px-6 md:px-10 lg:px-24 mb-6 md:mb-8'>
         {/*Texts*/}
         <div className='flex flex-row justify-between items-center pb-4'>
             <p className='text-black uppercase font-bold text-xl'>my works</p>
