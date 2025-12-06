@@ -92,7 +92,7 @@ export default function Discount() {
                              <Button type="small">Reserve</Button>
                            </div>
                             <div className='hidden sm:block'>
-                                <Button type="flat">Booking Now</Button>
+                                <Button type="flat">Book Now</Button>
                             </div> 
                 </div>      
         </div> 
