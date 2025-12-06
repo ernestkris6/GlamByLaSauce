@@ -12,7 +12,7 @@ import started8 from '../assets/started8.jpg'
 
 // Reusable Card Component for "Why Choose Us"
 const WhyChooseCard = ({ title, children }) => (
-  <div className="border rounded-lg px-6 md:px-10 py-6 md:py-10 flex flex-col gap-4 text-[15px] hover:bg-amber-700 hover:text-white duration-500 text-gray-600 cursor-pointer">
+  <div className="border rounded-lg px-6 md:px-10 py-12 md:py-10 flex flex-col gap-4 text-[15px] hover:bg-amber-700 hover:text-white duration-500 text-gray-600 cursor-pointer">
     <b>{title}</b>
     <p>{children}</p>
   </div>
