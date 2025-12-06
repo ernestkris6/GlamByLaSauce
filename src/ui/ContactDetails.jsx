@@ -1,17 +1,17 @@
 import React from 'react'
-import succy from '../assets/succy.jpg'
+import contactImg2 from '../assets/contactImg2.jpg'
 import Button from '../ui/Button'
 
 
 export default function ContactDetails() {
   return (
     <div className='px-6 md:px-10 lg:px-24'>
-      <div className='text-center text-2xl py-6 text-gray-500'>
+      <div className='text-center text-2xl py-2 text-gray-500'>
         <p>CONTACT <span className='font-medium'>US</span></p>
       </div>
 
       <section className='flex flex-col md:flex-row my-10 justify-center gap-10 mb-28 text-sm'>
-          <img className='w-full md:max-w-[360px]' src={succy} alt="" />
+          <img className='w-full lg:max-h-[65vh] md:max-w-[360px]' src={contactImg2} alt="" />
           <div className='flex flex-col justify-center items-start gap-6'>
             <p className='font-semibold text-lg text-gray-600'>OUR OFFICE</p>
             <p className='text-gray-500'>Onike Yaba, Lagos Nigeria</p>

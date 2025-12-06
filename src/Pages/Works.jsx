@@ -59,9 +59,10 @@ const imageData = [
 export default function Works() {
   return (
     <>
-    <div className='text-center text-2xl py-6 text-gray-500'>
+    <div className='text-center text-2xl py-2 text-gray-500'>
         <p>LA_SAUCE'S <span className='font-medium'>GALLERY</span></p>
-      </div>
+        <p className='py-1 text-lg md:text-xl font-medium'>Welcome to our Catalogue...a place of beautiful experiences.</p>
+    </div>
     <Gallery title='' images={imageData} showSeeAllLink={false} />
     </>
   )
