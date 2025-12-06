@@ -68,7 +68,7 @@ export default function AboutDetails() {
       <section className="mb-12">
         <h2 className="font-bold text-lg md:text-xl mb-6 text-gray-600">How it all <span>STARTED!!!</span></h2>
         <p className="text-[15px] mb-6 md:mb-8 max-w-2xl text-gray-600 text-justify">
-          Born from a passion for creativity and a love for all things glam, Glam by La Sauce was created to inspire confidence through high-quality beauty essentials...
+          Born from a passion for creativity and a love for all things glam, Glam by La Sauce was created to inspire confidence through high-quality beauty essentials that elevate your everyday routine.
         </p>
         <div className="flex overflow-x-auto gap-4 snap-x snap-mandatory scrollbar-hide py-2">
           {/* {[...Array(7)].map((_, i) => (

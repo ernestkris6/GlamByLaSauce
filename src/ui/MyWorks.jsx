@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-// import { Link } from 'react-router-dom'
+import React from 'react'
 import gram2 from "../assets/gram2.jpg"
 import gram3 from "../assets/gram3.jpg"
 import gram8 from "../assets/gram8.jpg"
