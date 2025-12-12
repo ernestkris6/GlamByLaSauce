@@ -14,7 +14,7 @@ export default function Gallery({ title = "", images = [], seeAllLink = "#", sho
     <section className="py-10 px-6 md:px-10 lg:px-24 mb-6 md:mb-8">
       {/* Header */}
       <div className="flex flex-row justify-between items-center pb-6 md:pb-8">
-        <p className="text-black uppercase font-bold text-xl">{title}</p>
+        <p className="text-gray-600 uppercase font-bold text-xl">{title}</p>
         {showSeeAllLink && seeAllLink && (
           <Link to={seeAllLink}>
             <p onClick={() => scrollTo(0, 0)} className="text-amber-800 font-semibold text-sm underline">

@@ -16,7 +16,7 @@ export default function HeroSection() {
                       <p className='text-[15px] font-semibold pb-4'>Discover makeup crafted with intention, skill, and a touch of signature glam that make you radiant, confident, and authentically you.
                       </p>
                     </div>
-                    <Link to='contact' onClick={()=> scrollTo(0,0)}><Button  type="span">Book Now</Button></Link> 
+                    <Link to='contact' onClick={()=> scrollTo(0,0)}><Button  type="span">Book Us Now</Button></Link> 
                 </div>      
            </div>
       

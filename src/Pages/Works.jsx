@@ -10,6 +10,8 @@ import gram25 from "../assets/gram25.jpg"
 import gram26 from "../assets/gram26.jpg"
 import gram27 from "../assets/gram27.jpg"
 
+import gram19 from '../assets/gram19.jpg'
+
 
 const imageData = [
     {
@@ -56,12 +58,32 @@ const imageData = [
 ]
 
 
-const imageData2 = [{
+const imageData2 = [
+{
+    id: 1,
+    img: gram19,
+    text: "Bridal Gele"
 
 },
 {
+    id: 1,
+    img: gram19,
+    text: "Bridal Gele"
 
-}]
+},
+{
+    id: 1,
+    img: gram19,
+    text: "Bridal Gele"
+
+},
+{
+    id: 1,
+    img: gram19,
+    text: "Bridal Gele"
+
+},
+]
 
 
 export default function Works() {
