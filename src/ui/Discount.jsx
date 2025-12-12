@@ -89,10 +89,14 @@ export default function Discount() {
                             </ul>
                         </div>
                            <div className='block sm:hidden'>
+                            <a href="https://wa.me/+2348065292598?text=Hi%20GlamByLa_Sauce,%20I%E2%80%99interested%20in%20exploring%20your%20beauty%20services!" target="_blank" rel="noopener noreferrer">
                              <Button type="small">Reserve</Button>
+                            </a>
                            </div>
                             <div className='hidden sm:block'>
+                                <a href="https://wa.me/+2348065292598?text=Hi%20GlamByLa_Sauce,%20I%E2%80%99interested%20in%20exploring%20your%20beauty%20services!" target="_blank" rel="noopener noreferrer">
                                 <Button type="flat">Book Now</Button>
+                                </a>
                             </div> 
                 </div>      
         </div> 

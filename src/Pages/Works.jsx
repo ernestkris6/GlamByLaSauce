@@ -56,6 +56,14 @@ const imageData = [
 ]
 
 
+const imageData2 = [{
+
+},
+{
+
+}]
+
+
 export default function Works() {
   return (
     <>
@@ -63,7 +71,11 @@ export default function Works() {
         <p>LA_SAUCE'S <span className='font-medium'>GALLERY</span></p>
         <p className='py-1 text-lg md:text-xl font-medium'>Welcome to our Catalogue...a place of beautiful experiences.</p>
     </div>
-    <Gallery title='' images={imageData} showSeeAllLink={false} />
+    <Gallery title='Make overs' images={imageData} showSeeAllLink={false} />
+    <Gallery title='Gele tying' images={imageData2} showSeeAllLink={false} />
+    <Gallery title='Manicure & Pedicure' images={imageData2} showSeeAllLink={false} />
+    <Gallery title='Gele tying' images={imageData2} showSeeAllLink={false} />
+    <Gallery title='Training' images={imageData2} showSeeAllLink={false} />
     </>
   )
 }

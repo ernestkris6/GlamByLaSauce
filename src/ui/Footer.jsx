@@ -32,10 +32,17 @@ export default function Footer() {
             {/*---------Right Section-----------*/}
             <div className='space-y-1 text-[15px]'>
                 <p className='font-bold'>CONTACT</p>
-                <p>Phone: +234-8065292598</p>
-                <p>Email: succychris6@gmail.com</p>
-                <p>Instagram: glamby_lasauce</p>
-                <p>WhatsApp: +234-8065292598</p>
+                <a href="https://wa.me/+2348065292598?text=Hi%20GlamByLa_Sauce,%20I%E2%80%99interested%20in%20exploring%20your%20beauty%20services!"
+                target='_blank'>
+                  <p>WhatsApp: +234-8065292598</p>
+                </a>
+                <a href="mailto:succychris6@gmail.com"
+                   target='_blank'>
+                  <p>Email: succychris6@gmail.com</p>
+                </a>
+                <a href="https://www.instagram.com/glamby_lasauce?igsh=NTIhYWJwZDN6dWIz&utm_-source=gr">
+                  <p>Instagram: glamby_lasauce</p>
+                </a>
                 <p>Location: Onike Yaba, Lagos Nigeria.</p>
 
             </div>

@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
  * - images: array of { id, img, text }
  * - seeAllLink: string (URL for 'See All')
  */
-export default function Gallery({ title = "Gallery", images = [], seeAllLink = "#", showSeeAllLink = true }) {
+export default function Gallery({ title = "", images = [], seeAllLink = "#", showSeeAllLink = true }) {
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
