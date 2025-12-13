@@ -156,7 +156,7 @@ const imageData5 = [
     {
         id: 0,
         img: training1,
-        text: 'Makeup session',
+        text: 'Makeup Session',
     },
 ]
 
