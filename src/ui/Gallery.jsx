@@ -14,7 +14,7 @@ export default function Gallery({ title = "", images = [], seeAllLink = "#", sho
     <section className="py-10 px-6 md:px-10 lg:px-24 mb-6 md:mb-8">
       {/* Header */}
       <div className="flex flex-row justify-between items-center pb-6 md:pb-8">
-        <p className="text-gray-600 uppercase font-bold text-xl">{title}</p>
+        <p className="text-gray-600 uppercase font-bold text-base md:text-lg">{title}</p>
         {showSeeAllLink && seeAllLink && (
           <Link to={seeAllLink}>
             <p onClick={() => scrollTo(0, 0)} className="text-amber-800 font-semibold text-sm underline">
@@ -29,7 +29,7 @@ export default function Gallery({ title = "", images = [], seeAllLink = "#", sho
         {images?.map((item) => (
           <div className="pb-8" key={item.id}>
             <img
-              className="pb-1 rounded hover:-translate-y-2 duration-500 transition-transform cursor-pointer w-72"
+              className="pb-1 rounded w-full h-full object-cover hover:-translate-y-2 duration-500 transition-transform cursor-pointer "
               src={item.img}
               alt={item.text}
               onClick={() => setSelectedImage(item.img)}
