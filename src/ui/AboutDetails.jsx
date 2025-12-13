@@ -1,14 +1,14 @@
 import React from 'react'
 import succy from '../assets/succy.jpg'
 import Button from '../ui/Button'
-import started from '../assets/started.jpg'
-import started2 from '../assets/started2.jpg'
-import started3 from '../assets/started3.jpg'
-import started4 from '../assets/started4.jpg'
-import started5 from '../assets/started5.jpg'
-import started6 from '../assets/started6.jpg'
-import started7 from '../assets/started7.jpg'
-import started8 from '../assets/started8.jpg'
+import started from '../assets/startedd.jpeg'
+import started2 from '../assets/startedd2.jpeg'
+import started3 from '../assets/startedd3.jpeg'
+import started4 from '../assets/startedd4.jpeg'
+import started5 from '../assets/startedd5.jpeg'
+import started6 from '../assets/startedd6.jpeg'
+import started7 from '../assets/startedd7.jpeg'
+import started8 from '../assets/startedd8.jpeg'
 
 // Reusable Card Component for "Why Choose Us"
 const WhyChooseCard = ({ title, children }) => (
