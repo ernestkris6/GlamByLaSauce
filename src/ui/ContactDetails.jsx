@@ -1,5 +1,5 @@
 import React from 'react'
-import contactImg2 from '../assets/contactImg2.jpg'
+import contactImg2 from '../assets/contactImg2.jpeg'
 import Button from '../ui/Button'
 
 
