@@ -109,22 +109,22 @@ const imageData3 = [
     {
         id: 0,
         img: gemini1,
-        text: "Elegant Pre Tie"
+        text: "Pedicure"
     },
     {
         id:1,
         img: gemini2,
-        text: "Elegant Pre Tie"
+        text: "Nail fixing"
     },
      {
         id:2,
         img: gemini3,
-        text: "Elegant Pre Tie"
+        text: "Foot Bath"
     },
      {
         id:3,
         img: gemini5,
-        text: "Elegant Pre Tie"
+        text: "Nail Decor"
     }
 
 ]
