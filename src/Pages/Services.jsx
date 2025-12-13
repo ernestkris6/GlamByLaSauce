@@ -36,7 +36,7 @@ export default function Services() {
       />
 
       <ServicesDetails
-        title="Photo Shoot Makeup"
+        title="Studio Makeup"
         description="Camera-ready makeup that enhances your natural beauty."
         image={image[6]}
         features={["Studio lighting ready", "Matte & glow options"]}
