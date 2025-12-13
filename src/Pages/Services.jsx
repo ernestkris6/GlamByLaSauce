@@ -10,6 +10,8 @@ import training1 from '../assets/training1.jpeg'
 import gele2 from '../assets/gele2.jpg'
 import gram26 from "../assets/gram26.jpg"
 import acc3 from "../assets/acc3.jpeg"
+// import makeup2 from "../assets/makeup2.jpg"
+
 
 // export default function Services() {
 //   return (
@@ -22,11 +24,15 @@ import acc3 from "../assets/acc3.jpeg"
 // import photoshoot from "../assets/photoshoot.jpg";
 // import graduation from "../assets/graduation.jpg";
 
-const image = [gram2, gram3, gram8, gemini4, training1, gele2, gram26, acc3]
+const image = [gram2, gram3, gram8, gemini4, training1, gele2, gram26, acc3,]
 
 export default function Services() {
   return (
     <>
+    <div className='text-center text-2xl pt-4 text-gray-500'>
+      <p>OUR <span className='font-medium'>SERVICES</span></p>
+        <p className='py-1 text-sm md:text-base font-medium'>What we DO!</p>
+    </div>
       <ServicesDetails
         title="Bridal Makeup"
         description="A flawless, long-lasting bridal look tailored to your big day."
