@@ -138,7 +138,7 @@ const imageData4 = [
     {
         id:1,
         img: acc2,
-        text: "Brush & Foundation" 
+        text: "Foundation" 
     },
     {
         id:2,
