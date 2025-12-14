@@ -20,7 +20,7 @@ const WhyChooseCard = ({ title, children }) => (
 
 // Reusable Image Card for the "How it Started" section
 const StartedImageCard = ({ src, alt }) => (
-  <div className="flex-shrink-0 snap-start w-48 sm:w-56 md:w-60 lg:w-64 h-60 sm:h-64 md:h-70 lg:h-80 rounded-md overflow-hidden group">
+  <div className="flex-shrink-0 snap-start w-48 sm:w-56 md:w-60 lg:w-64 h-60 sm:h-64 cursor-pointer md:h-70 lg:h-80 rounded-md overflow-hidden group">
     <img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" src={src} alt={alt} />
   </div>
 );
