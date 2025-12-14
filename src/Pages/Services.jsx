@@ -74,7 +74,7 @@ export default function Services() {
       />
       
       <ServicesDetails
-        title="Sales of Accessories and more..."
+        title="Sales of Accessories & more..."
         description="Purchase of makeup items at affordable prices."
         image={image[7]}
         features={["Order now", "Swift delivery"]}
