@@ -40,8 +40,11 @@ export default function Footer() {
                    target='_blank'>
                   <p>Email: succychris6@gmail.com</p>
                 </a>
-                <a href="https://www.instagram.com/glamby_lasauce?igsh=NTIhYWJwZDN6dWIz&utm_-source=gr">
+                <a href="https://www.instagram.com/glamby_lasauce?igsh=NTIhYWJwZDN6dWIz&utm_-source=gr" target="_blank" rel="noopener noreferrer">
                   <p>Instagram: glamby_lasauce</p>
+                </a>
+                <a href="https://www.tiktok.com/@glambylasauce?_r=1&_t=ZS-92GWy4fPIxx" target="_blank" rel="noopener noreferrer">
+                <p>TikTok: glambylasauce</p>
                 </a>
                 <p>Location: Onike Yaba, Lagos Nigeria.</p>
 

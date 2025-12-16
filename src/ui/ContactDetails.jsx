@@ -27,6 +27,9 @@ export default function ContactDetails() {
                 <a href="https://www.instagram.com/glamby_lasauce?igsh=NTIhYWJwZDN6dWIz&utm_-source=gr">
                   <p>Instagram: glamby_lasauce</p>
                 </a>
+                <a href="https://www.tiktok.com/@glambylasauce?_r=1&_t=ZS-92GWy4fPIxx" target="_blank" rel="noopener noreferrer">
+                  <p>TikTok: glambylasauce</p>
+                </a>
                   <p  className='text-lg font-semibold pt-4 text-gray-600'>ACTIVITIES at GLAM-BY-LASAUCE</p>
                   <p className='text-gray-500 py-4'>Learn more about our activities and events.</p>
               </div>

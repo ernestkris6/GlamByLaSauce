@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from './Button'
 import unsplash1 from '../assets/unsplash1.png'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 export default function HeroSection() {
   return (
@@ -16,7 +16,12 @@ export default function HeroSection() {
                       <p className='text-[15px] font-semibold pb-4'>Discover makeup crafted with intention, skill, and a touch of signature glam that make you radiant, confident, and authentically you.
                       </p>
                     </div>
-                    <Link to='contact' onClick={()=> scrollTo(0,0)}><Button  type="span">Book Us Now</Button></Link> 
+
+                    <a href="https://wa.me/+2348065292598?text=Hi%20GlamByLa_Sauce,%20I%E2%80%99interested%20in%20exploring%20your%20beauty%20services!" 
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                      <Button  type="span">Book Us Now</Button>
+                    </a>
                 </div>      
            </div>
       
