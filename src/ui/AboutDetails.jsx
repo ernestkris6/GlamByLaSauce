@@ -52,13 +52,13 @@ export default function AboutDetails() {
         <div className="flex flex-col justify-center text-gray-600 text-justify">
           <h1 className="font-bold mb-6">Get to <span>KNOW US</span></h1>
           <p className="text-[15px] mb-4">
-            Welcome to Glam by La Sauce! At Glam by La Sauce, beauty isn’t just a look—it's an experience, a feeling, a moment to celebrate yourself...We believe that every person deserves to feel glamorous in their own way, and our mission is to make beauty fun, expressive, and effortlessly accessible for everyone.
+            Welcome to Glam by La Sauce! At Glam by La Sauce, beauty isn’t just a look it's an experience, a feeling, a moment to celebrate yourself...We believe that every person deserves to feel glamorous in their own way, and our mission is to make beauty fun, expressive, and effortlessly accessible for everyone.
 
           </p>
           <div className="mt-6 md:mt-12">
             <h2 className="font-bold text-gray-600 mb-2">Our <span>VISION</span></h2>
             <p className="text-[15px]">
-              Our vision is to redefine beauty as a celebration of individuality—creating a space where every person feels seen, confident, and empowered...
+              Our vision is to redefine beauty as a celebration of individuality creating a space where every person feels seen, confident, and empowered...
             </p>
           </div>
         </div>
@@ -92,10 +92,10 @@ export default function AboutDetails() {
             High-performing, long-lasting products made to enhance your natural beauty.
           </WhyChooseCard>
           <WhyChooseCard title="INCLUSIVE FOR EVERYONE:">
-            Shades and styles that flatter every skin tone and personality—versatile and empowering.
+            Shades and styles that flatter every skin tone and personality versatile and empowering.
           </WhyChooseCard>
           <WhyChooseCard title="TREND-FORWARD GLAM:">
-            Modern, confidence-boosting designs for any look—either soft or bold, innovative, inspiring.
+            Modern, confidence-boosting designs for any look either soft or bold, innovative, inspiring.
           </WhyChooseCard>
         </div>
         <a href="https://wa.me/+2348065292598?text=Hi%20GlamByLa_Sauce,%20I%E2%80%99interested%20in%20exploring%20your%20beauty%20services!" target="_blank" rel="noopener noreferrer">
