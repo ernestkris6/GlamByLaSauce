@@ -47,7 +47,7 @@ export default function Header() {
        
             <nav className={`fixed top-0 right-0 h-[100dvh] w-1/2 md:hidden z-20 bg-white/70 transform transition-all duration-500 ease-in-out ${isOpen ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0 pointer-events-none'}`}>
                   <div className='absolute right-[18px] top-[28px] bottom-0 md:hidden'>
-                    <img className={`${isOpen ? 'block' : 'hidden'} w-7 cursor-pointer`} src={cross} onClick={handleClick} alt="" />
+                    <img className={`${isOpen ? 'block' : 'hidden'} w-7 cursor-pointer`} src={cross} onClick={handleClick} alt="Close menu" />
                 </div>
                 
                 {/*----------nav links----------*/}
