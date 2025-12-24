@@ -27,6 +27,8 @@ export default function Header() {
       console.log(handleOutsideClick, 'click outside');      
     }
   }, [isOpen])
+  
+
 
   return (
     <header className="px-6 md:px-10 lg:px-24 pt-4 pb-1 relative">
@@ -54,18 +56,18 @@ export default function Header() {
       </button>
 
       {/* -------- Overlay (click to close) -------- */}
-      {/* {isOpen && (
+      {isOpen && (
         <div
           className="fixed inset-0 bg-black/30 z-10 md:hidden"
           onClick={() => setIsOpen(false)}
         />
-      )} */}
+      )}
 
       {/* -------- Mobile Menu -------- */}
       <nav
         ref={menuRef}
         className={`fixed top-0 right-0 h-[100dvh] w-1/2 z-20 md:hidden
-        bg-white/80 backdrop-blur-md cursor-pointer
+        bg-white/60 backdrop-blur-md cursor-pointer
         transform transition-transform duration-500 ease-in-out
         ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}
       >
